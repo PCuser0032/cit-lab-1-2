@@ -1,0 +1,495 @@
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-Thin.eot");
+  src: local("Yandex Sans Text Thin"), local("YandexSansText-Thin"),
+    url("../fonts/YandexSansText-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/YandexSansText-Thin.woff2") format("woff2"),
+    url("../fonts/YandexSansText-Thin.woff") format("woff"),
+    url("../fonts/YandexSansText-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Display";
+  src: url("../fonts/YandexSansDisplay-Regular.eot");
+  src: local("Yandex Sans Display Regular"), local("YandexSansDisplay-Regular"),
+    url("../fonts/YandexSansDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/YandexSansDisplay-Regular.woff") format("woff"),
+    url("../fonts/YandexSansDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-RegularItalic.eot");
+  src: local("Yandex Sans Text Regular Italic"),
+    local("YandexSansText-RegularItalic"),
+    url("../fonts/YandexSansText-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansText-RegularItalic.woff2") format("woff2"),
+    url("../fonts/YandexSansText-RegularItalic.woff") format("woff"),
+    url("../fonts/YandexSansText-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Yandex Sans Display";
+  src: url("../fonts/YandexSansDisplay-RegularItalic.eot");
+  src: local("Yandex Sans Display Regular Italic"),
+    local("YandexSansDisplay-RegularItalic"),
+    url("../fonts/YandexSansDisplay-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansDisplay-RegularItalic.woff2") format("woff2"),
+    url("../fonts/YandexSansDisplay-RegularItalic.woff") format("woff"),
+    url("../fonts/YandexSansDisplay-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Yandex Sans Display";
+  src: url("../fonts/YandexSansDisplay-Light.eot");
+  src: local("Yandex Sans Display Light"), local("YandexSansDisplay-Light"),
+    url("../fonts/YandexSansDisplay-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansDisplay-Light.woff2") format("woff2"),
+    url("../fonts/YandexSansDisplay-Light.woff") format("woff"),
+    url("../fonts/YandexSansDisplay-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-Regular.eot");
+  src: local("Yandex Sans Text Regular"), local("YandexSansText-Regular"),
+    url("../fonts/YandexSansText-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansText-Regular.woff2") format("woff2"),
+    url("../fonts/YandexSansText-Regular.woff") format("woff"),
+    url("../fonts/YandexSansText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-Light.eot");
+  src: local("Yandex Sans Text Light"), local("YandexSansText-Light"),
+    url("../fonts/YandexSansText-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/YandexSansText-Light.woff2") format("woff2"),
+    url("../fonts/YandexSansText-Light.woff") format("woff"),
+    url("../fonts/YandexSansText-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Display";
+  src: url("../fonts/YandexSansDisplay-Bold.eot");
+  src: local("Yandex Sans Display Bold"), local("YandexSansDisplay-Bold"),
+    url("../fonts/YandexSansDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/YandexSansDisplay-Bold.woff") format("woff"),
+    url("../fonts/YandexSansDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Display";
+  src: url("../fonts/YandexSansDisplay-Thin.eot");
+  src: local("Yandex Sans Display Thin"), local("YandexSansDisplay-Thin"),
+    url("../fonts/YandexSansDisplay-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/YandexSansDisplay-Thin.woff2") format("woff2"),
+    url("../fonts/YandexSansDisplay-Thin.woff") format("woff"),
+    url("../fonts/YandexSansDisplay-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-Bold.eot");
+  src: local("Yandex Sans Text Bold"), local("YandexSansText-Bold"),
+    url("../fonts/YandexSansText-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/YandexSansText-Bold.woff2") format("woff2"),
+    url("../fonts/YandexSansText-Bold.woff") format("woff"),
+    url("../fonts/YandexSansText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yandex Sans Text";
+  src: url("../fonts/YandexSansText-Medium.eot");
+  src: local("Yandex Sans Text Medium"), local("YandexSansText-Medium"),
+    url("../fonts/YandexSansText-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/YandexSansText-Medium.woff2") format("woff2"),
+    url("../fonts/YandexSansText-Medium.woff") format("woff"),
+    url("../fonts/YandexSansText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* /fonts */
+
+.cs-page {
+  font-size: 15px;
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.92);
+
+  font-family: YS Text, Helvetica Neue, Arial, sans-serif;
+  font-feature-settings: "liga", "kern";
+}
+
+.cs-header {
+  position: relative;
+  z-index: 100;
+  display: block;
+  width: 100%;
+  background: #fff;
+}
+
+.cs-container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cs-content-width {
+  max-width: 1260px;
+}
+
+.cs-navbar {
+  height: 70px;
+}
+
+.cs-navbar > * {
+  white-space: nowrap;
+}
+
+.cs-navbar__logo {
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.cs-navbar__logo-realty {
+  margin-top: 3px;
+  padding-left: 6px;
+}
+
+.cs-link {
+  touch-action: manipulation;
+}
+
+.cs-link-theme-islands {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0065d9;
+  outline: 0;
+  -webkit-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.cs-link-theme-islands:active,
+.cs-link-theme-islands:hover {
+  color: #f33;
+}
+
+.cs-navbar__staff-and-user {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.cs-navbar__staff-menu {
+  /* line-height: 36px; */
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 0;
+  margin-right: 24px;
+  text-align: right;
+}
+
+.cs-navbar__staff-menu__region-select {
+  display: flex;
+  flex-shrink: 1;
+  min-width: 0;
+  margin-left: 20px;
+}
+
+.cs-region-select {
+  font-size: 16px !important;
+  line-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.cs-region-select-with-icon {
+  line-height: 32px;
+  padding: 0 12px 0 8px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.06);
+  transition-timing-function: ease;
+  transition-duration: 0.1s;
+  transition-property: background-color, color;
+}
+
+.cs-icon-svg {
+  transition: color 0.15s ease-out;
+}
+
+.cs-icon-svg__size-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.cs-region-select__icon {
+  width: 14px;
+  min-width: 14px;
+  height: 14px;
+  margin-right: 9px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.cs-region-select__value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cs-region-select__value-with-icon {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.92);
+}
+
+.cs-navbar__staff-menu__right-align {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.cs-link-theme-islands.cs-link-view-text {
+  color: #000;
+}
+
+.cs-navbar__staff-menu__favorites {
+  display: flex;
+  align-items: center;
+  font-size: 16px !important;
+}
+
+.cs-navbar__staff-menu__favorites:not(:last-child) {
+  margin-right: 20px;
+}
+
+.cs-navbar__staff-menu__favorites:hover .cs-icon-svg {
+  color: #f66;
+}
+
+.cs-navbar__staff-menu__favorites-icons {
+  position: relative;
+}
+
+.cs-navbar__staff-menu__favorites .cs-icon-svg {
+  color: #b6b6b6;
+}
+
+.cs-navbar__staff-menu .cs-icon-svg {
+  transition: color 0.15s ease-out;
+}
+
+.cs-navbar__staff-menu__chat-link {
+  flex-shrink: 0;
+}
+
+.cs-chat-trigger__wrap {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.32);
+}
+
+.cs-chat-trigger__wrap:hover {
+  color: #f66;
+}
+
+.cs-navbar__user-menu__container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.cs-navbar-user-menu__offers-link {
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.cs-button {
+  touch-action: manipulation;
+}
+
+.cs-button-theme-realty {
+  font-family: inherit;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  color: #000;
+  border: 0;
+  border-radius: 8px;
+  outline: 0;
+  background-color: transparent;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.cs-button-theme-realty:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  border-radius: 8px;
+  -webkit-transition: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
+}
+
+.cs-button-theme-realty.cs-button-size-s {
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 16px;
+}
+
+.cs-button-theme-realty.cs-button-view-green {
+  color: hsla(0, 0%, 100%, 0.92);
+}
+
+.cs-button-theme-realty.cs-button-view-green:before {
+  background-color: #00b341;
+}
+
+.cs-button-theme-realty.cs-button-view-green.cs-button-hovered {
+  color: hsla(0, 0%, 100%, 0.92);
+}
+
+.cs-button-theme-realty.cs-button-type-link {
+  text-decoration: none;
+}
+
+.cs-navbar-add-offer-button {
+  line-height: 36px !important;
+  margin-right: 24px;
+}
+
+.cs-button-theme-realty .cs-button__text {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: top;
+  text-overflow: ellipsis;
+}
+
+.cs-user-account {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  outline: 0;
+}
+
+.cs-user-pic__wrapper {
+  display: inline-block;
+}
+
+.cs-user-account__pic {
+  position: relative;
+  vertical-align: middle;
+}
+
+.cs-user-pic {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cs-user-pic-size-l {
+  width: 42px;
+  height: 42px;
+}
+
+.cs-user-pic__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  background-color: #fff;
+}
+
+/* main menu */
+
+.cs-main-menu-container {
+  position: relative;
+  z-index: 6;
+  width: 100%;
+  min-width: 1000px;
+  height: 44px;
+}
+
+.cs-main-menu-container.cs-main-menu__separator {
+  box-shadow: 0 1px 0 #ebebeb;
+}
+
+.cs-main-menu__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MainMenu__navigation--ALYTs .MainMenu__menuItem--1Qk2- {
+  height: 100%;
+  padding: 0 10px;
+}
+.MainMenu__navigation--ALYTs .MainMenu__menuItem--1Qk2-:first-of-type {
+  padding-left: 0;
+}
+.MainMenu__navigation--ALYTs .MainMenu__menuItem--1Qk2-:last-of-type {
+  padding-right: 0;
+}

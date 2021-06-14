@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Racing cars | Square equation solve</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header-logo">
+                <h1><i>Equation solve</i></h1>
+            </div>
+        </header>
+        <div class="page-wrapper">
+            <main class="main">
+                <div class="eq-container">
+                    <div class="eq-solve__title">
+                        <h2>Решение квадратного уравнения</h2>
+                    </div>
+                    <div class="eq-form-wrapper">
+                        <form class="eq-form" name="equationForm" action="javascript:equationSolve()">
+                            <input class="eq-form__item" name="aCoeff" type="text" value="" size="4">
+                            <label>x<sup>2</sup> + </label>
+                            <input class="eq-form__item" name="bCoeff" type="text" value="" size="4">
+                            <label>x + </label>
+                            <input class="eq-form__item" name="cCoeff" type="text" value="" size="4">
+                            <label> = 0</label>
+                            <div class="eq-solve-btn">
+                                <button class="btn" type="submit">решить уравнение</button>
+                            </div>
+                        </form>
+                        <div class="eq-solve__area" id="eq-solve"></div>
+                    </div>
+                </div>
+            </main>
+            <div class="sidebar-wrapper">
+                <aside class="sidebar">
+                    <nav class="nav">
+                        <ul class="list">
+                            <li class="list-item"><a class="link" href="index.html">Главная</a></li>
+                            <li class="list-item"><a class="link" href="contacts.html">Контакты</a></li>
+                            <li class="list-item"><a class="link" href="info.html">О нас</a></li>
+                            <li class="list-item"><a class="link" href="equation-solve.html">Решение уравнения</a></li>
+                            <li class="list-item"><a class="link" href="#">Клон Яндекс.Недвижимость</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="author">
+                    <p>Код проекта</p>
+                </div>
+                <div class="author">
+                    <a class="author-link" href="https://github.com/PCuser0032" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/equation-solve.js"></script>
+</body>
+</html>
